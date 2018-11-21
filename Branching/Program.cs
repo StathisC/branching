@@ -6,7 +6,10 @@ namespace Branching
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Stathis");
+            var student = new Student("George");
+            System.Console.WriteLine($"Hello World! from {student}");
+            System.Console.Read();
+
         }
     }
 }
